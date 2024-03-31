@@ -28,6 +28,7 @@ namespace DockerSampleWebApi.Tests
 
             // Assert
             Assert.IsType<WeatherForecast[]>(result);
+            Assert.Equal(5, result.Count());
         }
 
         // Add more tests as needed
